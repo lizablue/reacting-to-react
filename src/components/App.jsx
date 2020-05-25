@@ -1,7 +1,7 @@
 import React from "react";
 
-const greetApp = () => {
-    return <h1>Hello Liz</h1>;
+const greetApp = (props) => {
+    return <h1>Hello { props.name }</h1>;
 }
 
 export default greetApp;
