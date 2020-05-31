@@ -9,7 +9,8 @@ class App extends Component {
         super(props);
 
         this.state = {
-            name: "ashley"
+            name: "ashley",
+            text: "what\'s up?"
         };
     }
 
@@ -17,7 +18,7 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1>Hello { this.state.name }</h1>
+                    <h1>Hello { this.state.name }, { this.state.text }</h1>
                 </header>
             </div>
         );
